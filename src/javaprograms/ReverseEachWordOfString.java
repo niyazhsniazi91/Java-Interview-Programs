@@ -18,25 +18,15 @@ public class ReverseEachWordOfString
             {
                 reverseWord = reverseWord + word.charAt(j);
             }
-            
             reverseString = reverseString + reverseWord + " ";
         }
-        
         System.out.println(inputString);
-        
-        System.out.println(reverseString);
-        
         System.out.println("-------------------------");
+        System.out.println(reverseString);
     }
     
     public static void main(String[] args) 
     {
-        reverseEachWordOfString("Java Concept Of The Day");
-        
-        reverseEachWordOfString("Java J2EE JSP Servlets Hibernate Struts");
-        
-        reverseEachWordOfString("I am string not reversed");
-        
-        reverseEachWordOfString("Reverse Me");
+        reverseEachWordOfString("MY NAME IS NIYAZ");
     }
 }
